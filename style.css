@@ -1,3 +1,7 @@
+  
+
+/*THIS IS STYLING FOR THE STUFF ON THE INDEX.HTML PAGE!
+*/
   #body {
       margin: 0;
       background-image: url("./imgs/paper.png");
@@ -22,20 +26,21 @@
 
   }
 
-  #one {
+/*CHANGE THESE BACKGROUND IMAGES TO SOMETHING THAT'S MORE YOU.*/
+  #takeApart {
       background-image: url(./imgs/take-apart.gif);
       top: 20%;
       left: 10%;
   }
 
-  #two {
+  #journal {
       background-image: url(https://miro.medium.com/max/8920/1*KSeJJRczg0M3W_SFCw034Q.jpeg);
       top: 100%;
       left: 40%;
   }
 
 
-  #three {
+  #project {
       background-image: url(./imgs/project.gif);
       background-position: -500px;
       top: 200%;
@@ -45,7 +50,7 @@
 
 
 
-  #four {
+  #exhibition {
       color: red;
       background-image: url(./imgs/exhibition.jpg);
       top: 300%;
@@ -57,11 +62,18 @@
   a {
       text-decoration: none;
       color: white;
+            font-family: 'Bungee Inline', cursive;
+
   }
 
   a:hover {
       color: #fe4300;
 
+
+  }
+
+  h1 {
+      font-family: 'Bungee Inline', cursive;
 
   }
 
@@ -72,37 +84,12 @@
       top: 400% right: 5%;
   }
 
-  #takeApart-photo {
 
-      background-image: url(./imgs/take-apart.gif);
-      top: -10px;
-  }
+/*THIS IS STYLING FOR THE STUFF ON THE JOURNAL PAGE!
+*/
 
-  #takeApart-list {
-      padding-top: 10px;
-      padding-bottom: 10px;
-      width: 100%;
-      top: -10px;
-      height: 150px;
-      padding-left: 100px;
-      background-color: #228B22;
-      position: relative;
-  }
 
-  #takeApart-list {
-      font-family:courier;
-  }
-
-  a {
-
-      font-family: 'Bungee Inline', cursive;
-
-  }
-
-  h1 {
-      font-family: 'Bungee Inline', cursive;
-
-  }
+  
 
 
   .journal-section {
