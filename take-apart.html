@@ -1,42 +1,139 @@
 <!DOCTYPE html>
 <html>
 
-
-
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font|Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <style>
+    body {
+        margin: 0;
+        background-color: black;
 
+    }
+
+    section {
+        height: 1000px;
+    }
+
+    #section1 {
+        background-color: black;
+        position: fixed;
+        z-index: 0;
+
+    }
+
+    #section2 {
+        height: 200%;
+        top: 120%;
+        position: absolute;
+        z-index: 1;
+        padding: 5%;
+        background-color: rgba(0, 0, 0, 0.5);
+
+    }
+
+    #section3 {
+        height: 300%;
+        top: 320%;
+        position: absolute;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+
+    }
+
+    #lead-image {
+        top: 10%;
+        width: 800px;
+        height: 600px;
+        position: relative;
+        left: 300px;
+    }
+
+
+
+    .process-images {
+        border: 1px solid black;
+        position: relative;
+        width: 400px;
+        height: 300px;
+        margin: 10px;
+        background-size: cover;
+
+
+    }
+
+    .videos {
+        border: 1px solid black;
+        width: 400px;
+        height: 300px;
+        margin: 10px;
+
+    }
+
+    #title {
+        position: relative;
+        left: 300px;
+        font-size: 80px;
+        color: white;
+        font-family: 'Luckiest Guy', cursive;
+
+    }
+
+    .text {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 24px;
+        color: white;
+        left: 100px;
+
+    }
+
+    h3 h2 {
+        font-family: 'Luckiest Guy', cursive;
+
+
+    }
+    </style>
 </head>
 
 <body>
-   
-    <div id="takeApart-list">
-        <p>Below are weird examples (with links) of things to inspire you in what you can build out of your take apart materials! If you use this template for your website, you'll turn this green section into a description of what you made and below you'll have images of your process.</p>
-        <ul>
-            <a href="https://oddcompany.se/work/stache-shield/">
-                <li>Stache shield</li>
-            </a>
-            <a href="https://www.drinkripples.com/">
-                <li>images on lattes</li>
-            </a>
-            <a href="https://petapixel.com/2014/07/18/selfie-toaster-can-burn-portrait-onto-morning-toast/">
-                <li>selfie toaster</li>
-                <a href="https://www.jotform.com/blog/bizarre-and-unusual-product-designs/">
-                    <li> list and descriptions of weird and unusual products for inspiration</li>
-                </a>
-                <a href="https://www.goodhousekeeping.com/life/money/g28649116/weirdest-products-on-amazon/">40 weirdest products on Amazon that people love</a>
-                <a><a href="https://www.elitedaily.com/p/70-weird-as-hell-products-on-amazon-that-are-actually-genius-8326661">
-                        <li>Another list of weird products</li>
-                    </a>
-        </ul>
+    <section id="section1">
+        <div id="title">
+            <center>
+                <p>THE MIND READER</p>
+            </center>
+        </div>
+        <img id="lead-image" src="./takeApart-imgs/front-image.png">
+    </section>
+    <section id="section2">
+        <div class="text">
+            <h2>The Mind Reader...
+                <p>..is a device meant to help you reflect on your inner dialogue, helping you to be mindful as you meditate. It works by providing an audio experience — a meditative guide — featuring carefully selected sound effects and verbal affirmations and visualizations. It all provides a visual focal point of turning gears and words that can help you externalize anxiety about your thoughts and instead bring about inner piece.</p>
+                <p>It was made using real impressions and moulds of our faces along with laser cut gears and hand-selected words. The color choices and painting on the gears are meant to bring about a trans-like state that induces focus and thus, inner serenity.</p>
+        </div>
+    </section>
+    <section id='section3'>
+        <div class="text"><h3>Our Process</h3>
+        <p>We started by brainstorming and designing a blueprint for our idea — a kinetic sculptured that represented each of our ideas about consciosness.</p>
+        <p>We then made moulds of our faces
     </div>
-    <div class="photo" id="takeApart-photo"></div>
-    <div class="description">
-        <h1>What we made...</h1>
-        <p>MORE TEXT IN CASE YOU WANT IT HERE INSTEAD...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
+        <img class="process-images" src="./takeApart-imgs/1.jpg">
+        <img class="process-images" src="./takeApart-imgs/2.jpg">
+        <img class="process-images" src="./takeApart-imgs/3.jpg">
+        <img class="process-images" src="./takeApart-imgs/4.jpg">
+        <img class="process-images" src="./takeApart-imgs/5.jpg">
+        <video class="videos" controls src="./takeApart-imgs/6.mov"></video>
+        <video class="videos" controls src="./takeApart-imgs/7.mov"></video>
+        <video class="videos" controls src="./takeApart-imgs/8.mov"></video>
+        <img class="process-images" src="./takeApart-imgs/9.jpg">
+        <img class="process-images" src="./takeApart-imgs/10.jpg">
+        <img class="process-images" src="./takeApart-imgs/11.jpg">
+        <img class="process-images" src="./takeApart-imgs/12.jpg">
+        <video class="process-images" src="./takeApart-imgs/13.mov"></video>
+        <img class="process-images" src="./takeApart-imgs/14.jpg">
+        <img class="process-images" src="./takeApart-imgs/15.jpg">
+        <video class="process-images" src="./takeApart-imgs/16.mov"></video>
+        <img class="process-images" src="./takeApart-imgs/17.jpg">
+    </section>
 </body>
 
 </html>
